@@ -27,9 +27,7 @@ export const ProductCard = ({
             )}
             <div className={styles.cardContent}>
                 <p className={styles.description}>{name}</p>
-                {price?.formatted && (
-                    <p className={CommonStyles_module.price}>{price.formatted.price}</p>
-                )}
+                {price?.formatted && <p className={CommonStyles_module.price}></p>}
             </div>
         </div>
     );
